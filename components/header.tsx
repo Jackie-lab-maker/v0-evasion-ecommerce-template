@@ -33,7 +33,7 @@ export function Header() {
             alt="WATFlight"
             width={32}
             height={32}
-            className={`transition-all duration-300 ${isScrolled ? "" : "brightness-0 invert"}`}
+            className="transition-all duration-300"
           />
           <span className={`text-lg font-medium tracking-tight transition-colors duration-300 ${isScrolled ? "text-foreground" : "text-white"}`}>
             WATFLIGHT
