@@ -11,24 +11,28 @@ const sideImages = [
     alt: "Urban air mobility eVTOL aircraft",
     position: "left",
     span: 1,
+    objectPosition: "center",
   },
   {
     src: "/images/drone-phantom.jpg",
     alt: "Phantom - our first project",
     position: "left",
     span: 1,
+    objectPosition: "center",
   },
   {
     src: "/images/air-canada-787.jpg",
     alt: "Air Canada Boeing 787 Dreamliner",
     position: "right",
     span: 1,
+    objectPosition: "left center",
   },
   {
     src: "/images/aviation-systems.jpg",
     alt: "Advanced avionics and flight systems",
     position: "right",
     span: 1,
+    objectPosition: "center",
   },
 ];
 
@@ -180,6 +184,7 @@ export function HeroSection() {
                     alt={img.alt}
                     fill
                     className="object-cover"
+                    style={{ objectPosition: img.objectPosition }}
                   />
                 </div>
               ))}
