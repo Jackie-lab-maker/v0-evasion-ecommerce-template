@@ -10,13 +10,11 @@ const specs = [
 export function EditorialSection() {
   return (
     <section id="editorial" className="bg-background">
-      {/* Newsletter Banner */}
-      
-
-      {/* Decorative Icons */}
-      <div className="flex items-center justify-center gap-6 pb-20">
-        
-        
+      {/* Phantom Specs Label */}
+      <div className="px-6 py-12 text-center md:px-12 lg:px-20">
+        <p className="text-xs uppercase tracking-widest text-muted-foreground">
+          Phantom Specifications
+        </p>
       </div>
 
       {/* Specs Grid */}

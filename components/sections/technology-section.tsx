@@ -60,26 +60,26 @@ function ScrollRevealText({ text }: { text: string }) {
 
 const sideImages = [
   {
-    src: "/images/drone-desert.jpg",
-    alt: "Racing over desert landscape",
+    src: "/images/aviation-lab.jpg",
+    alt: "Aviation research laboratory",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/drone-mountains.jpg",
-    alt: "High altitude flight",
+    src: "/images/aviation-testing.jpg",
+    alt: "Aerospace testing facility",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/drone-forest.jpg",
-    alt: "Forest navigation",
+    src: "/images/drone-phantom.jpg",
+    alt: "Phantom autonomous drone",
     position: "right",
     span: 1,
   },
   {
-    src: "/images/drone-ocean.jpg",
-    alt: "Coastal racing",
+    src: "/images/aviation-flight-deck.jpg",
+    alt: "Flight control systems",
     position: "right",
     span: 1,
   },
@@ -91,7 +91,7 @@ export function TechnologySection() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [textProgress, setTextProgress] = useState(0);
   
-  const descriptionText = "Experience autonomous flight reimagined with cutting-edge AI. WATFlight drones combine machine learning, computer vision, and aerospace-grade materials to deliver championship-level performance. From urban courses to open terrain, your drone adapts to every challenge.";
+  const descriptionText = "Experience aviation reimagined with cutting-edge technology. WATFlight combines machine learning, precision engineering, and aerospace-grade materials to push the boundaries of flight. Phantom represents our first step — autonomous racing that demonstrates what's possible when innovation meets ambition.";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -198,8 +198,8 @@ export function TechnologySection() {
               }}
             >
               <Image
-                src="/images/drone-sunset.jpg"
-                alt="Racing drone silhouette against sunset"
+                src="/images/aviation-evtol.jpg"
+                alt="Future of aviation technology"
                 fill
                 className="object-cover"
               />
@@ -210,7 +210,7 @@ export function TechnologySection() {
                 className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center"
               >
                 <h2 className="max-w-3xl font-medium leading-tight tracking-tight text-white md:text-5xl lg:text-7xl text-5xl">
-                  {["Intelligence", "Meets", "Speed."].map((word, index) => {
+                  {["Engineering", "The", "Future."].map((word, index) => {
                     // Each word fades out sequentially based on scrollProgress
                     const wordFadeStart = index * 0.07; // Intelligence: 0, Meets: 0.07, Speed: 0.14
                     const wordFadeEnd = wordFadeStart + 0.07;

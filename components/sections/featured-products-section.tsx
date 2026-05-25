@@ -4,34 +4,34 @@ import { FadeImage } from "@/components/fade-image";
 
 const features = [
   {
-    title: "AI Autonomous Navigation",
+    title: "AI-Powered Navigation",
     description: "Intelligence",
     image: "/images/drone-ai-system.jpg",
   },
   {
-    title: "Ultra-Light Carbon Frame",
-    description: "Performance",
-    image: "/images/drone-carbon-frame.jpg",
+    title: "Aerospace-Grade Materials",
+    description: "Engineering",
+    image: "/images/aviation-materials.jpg",
   },
   {
-    title: "Brushless Propulsion System",
+    title: "Advanced Propulsion",
     description: "Power",
-    image: "/images/drone-propulsion.jpg",
+    image: "/images/aviation-propulsion.jpg",
   },
   {
-    title: "Collision Avoidance Sensors",
+    title: "Precision Sensor Systems",
     description: "Safety",
     image: "/images/drone-collision.jpg",
   },
   {
-    title: "Quick-Swap Battery System",
+    title: "Modular Power Systems",
     description: "Endurance",
     image: "/images/drone-battery.jpg",
   },
   {
-    title: "Immersive FPV Experience",
+    title: "Real-Time Flight Control",
     description: "Control",
-    image: "/images/drone-fpv.jpg",
+    image: "/images/aviation-flight-deck.jpg",
   },
 ];
 

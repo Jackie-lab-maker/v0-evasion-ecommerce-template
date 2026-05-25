@@ -8,16 +8,17 @@ export function TestimonialsSection() {
       {/* Large Text Statement */}
       <div className="px-6 py-24 md:px-12 md:py-32 lg:px-20 lg:py-40">
         <p className="mx-auto max-w-5xl text-2xl leading-relaxed text-foreground md:text-3xl lg:text-[2.5rem] lg:leading-snug">
-          WATFlight drones combine aerospace-grade carbon fiber with advanced AI navigation — 
-          engineered for pilots who demand championship-level precision and uncompromising performance.
+          WATFlight is building the future of aviation — one breakthrough at a time. 
+          From autonomous racing with Phantom to next-generation flight systems, we engineer 
+          technology that redefines what&apos;s possible in the sky.
         </p>
       </div>
 
       {/* About Image */}
       <div className="relative aspect-[16/9] w-full">
         <Image
-          src="/images/drone-stadium.jpg"
-          alt="WATFlight drone racing championship"
+          src="/images/aviation-lab.jpg"
+          alt="WATFlight aviation technology laboratory"
           fill
           className="object-cover"
         />

@@ -7,20 +7,20 @@ const footerLinks = {
   explore: [
     { label: "Products", href: "#products" },
     { label: "Technology", href: "#technology" },
-    { label: "Gallery", href: "#gallery" },
-    { label: "Accessories", href: "#accessories" },
+    { label: "About", href: "#testimonials" },
+    { label: "Team", href: "#team" },
   ],
   about: [
     { label: "Our Story", href: "#" },
-    { label: "Team", href: "#" },
     { label: "Careers", href: "#" },
+    { label: "Press", href: "#" },
     { label: "Contact", href: "#" },
   ],
   service: [
     { label: "FAQ", href: "#" },
-    { label: "Shipping", href: "#" },
-    { label: "Returns", href: "#" },
-    { label: "Warranty", href: "#" },
+    { label: "Support", href: "#" },
+    { label: "Partners", href: "#" },
+    { label: "Developers", href: "#" },
   ],
 };
 
@@ -44,7 +44,7 @@ export function FooterSection() {
               </span>
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              High-performance autonomous racing drones engineered for competitive pilots. AI-powered navigation, carbon fiber construction, and championship-ready design.
+              Advancing aviation technology through innovation. From autonomous racing drones to next-generation flight systems — engineering the future of flight.
             </p>
           </div>
 
