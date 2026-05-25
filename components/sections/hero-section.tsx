@@ -3,30 +3,30 @@
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
-const word = "EVASION";
+const word = "WATFLIGHT";
 
 const sideImages = [
   {
-    src: "https://images.unsplash.com/photo-1517824806704-9040b037703b?q=80&w=1000",
-    alt: "Mountain hiking adventure",
+    src: "/images/drone-urban.jpg",
+    alt: "Drone racing in urban environment",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=1000",
-    alt: "Camping under stars",
+    src: "/images/drone-night.jpg",
+    alt: "Night racing with LED trails",
     position: "left",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1533873984035-25970ab07461?q=80&w=1000",
-    alt: "Forest exploration",
+    src: "/images/drone-race-track.jpg",
+    alt: "Racing through neon gates",
     position: "right",
     span: 1,
   },
   {
-    src: "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?q=80&w=1000",
-    alt: "Lake camping view",
+    src: "/images/drone-stadium.jpg",
+    alt: "Championship arena racing",
     position: "right",
     span: 1,
   },
@@ -126,8 +126,8 @@ export function HeroSection() {
               }}
             >
               <Image
-                src="/images/hero-main.png"
-                alt="Mountain landscape with camping tent at sunset"
+                src="/images/drone-hero.jpg"
+                alt="WATFlight autonomous racing drone at sunset"
                 fill
                 className="object-cover"
                 priority
@@ -138,7 +138,7 @@ export function HeroSection() {
                 className="absolute inset-0 flex items-end overflow-hidden"
                 style={{ opacity: textOpacity }}
               >
-                <h1 className="w-full text-[22vw] font-medium leading-[0.8] tracking-tighter text-white">
+                <h1 className="w-full text-[18vw] font-medium leading-[0.8] tracking-tighter text-white md:text-[20vw]">
                   {word.split("").map((letter, index) => (
                     <span
                       key={index}
@@ -195,9 +195,9 @@ export function HeroSection() {
       {/* Tagline Section */}
       <div className="px-6 pt-32 pb-28 md:pt-48 md:px-12 md:pb-36 lg:px-20 lg:pt-56 lg:pb-44">
         <p className="mx-auto max-w-2xl text-center text-2xl leading-relaxed text-muted-foreground md:text-3xl lg:text-[2.5rem] lg:leading-snug">
-          Lightweight, durable
+          AI-powered, carbon fiber
           <br />
-          and adventure-ready.
+          and race-ready.
         </p>
       </div>
     </section>

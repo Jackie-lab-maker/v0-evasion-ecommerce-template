@@ -4,34 +4,34 @@ import { FadeImage } from "@/components/fade-image";
 
 const features = [
   {
-    title: "Smart Temperature Control",
-    description: "Innovation",
-    image: "/images/d18fe616-5596-4559-90f5-a90f5397d0d8.png",
+    title: "AI Autonomous Navigation",
+    description: "Intelligence",
+    image: "/images/drone-ai-system.jpg",
   },
   {
     title: "Ultra-Light Carbon Frame",
     description: "Performance",
-    image: "/images/e26fa9c3-966d-4966-94a4-954a1e511c1c.png",
+    image: "/images/drone-carbon-frame.jpg",
   },
   {
-    title: "Weather-Resistant Design",
-    description: "Durability",
-    image: "/images/car.jpg",
+    title: "Brushless Propulsion System",
+    description: "Power",
+    image: "/images/drone-propulsion.jpg",
   },
   {
-    title: "Integrated GPS Tracking",
-    description: "Navigation",
-    image: "/images/204cee22-9e85-49e8-9303-1d309af626b0.png",
+    title: "Collision Avoidance Sensors",
+    description: "Safety",
+    image: "/images/drone-collision.jpg",
   },
   {
-    title: "Built-In LED Flashlight",
-    description: "Visibility",
-    image: "/images/led-flashlight-bottle.png",
+    title: "Quick-Swap Battery System",
+    description: "Endurance",
+    image: "/images/drone-battery.jpg",
   },
   {
-    title: "Self-Heating Technology",
-    description: "Comfort",
-    image: "/images/heating-campfire.png",
+    title: "Immersive FPV Experience",
+    description: "Control",
+    image: "/images/drone-fpv.jpg",
   },
 ];
 
@@ -41,9 +41,9 @@ export function FeaturedProductsSection() {
       {/* Section Title */}
       <div className="px-6 py-20 text-center md:px-12 md:py-28 lg:px-20 lg:py-32 lg:pb-20">
         <h2 className="text-3xl font-medium tracking-tight text-foreground md:text-4xl lg:text-5xl">
-          Engineered for Excellence.
+          Engineered for Speed.
           <br />
-          Designed for Adventure.
+          Designed to Win.
         </h2>
         <p className="mx-auto mt-6 max-w-md text-sm text-muted-foreground">
           Technology

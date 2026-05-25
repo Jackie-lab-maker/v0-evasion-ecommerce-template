@@ -12,14 +12,14 @@ export function GallerySection() {
   const lastScrollRef = useRef(0);
 
   const images = [
-    { src: "/images/bottle-bike.png", alt: "Thermal bottle on bike" },
-    { src: "/images/bottle-lake.png", alt: "Thermal bottle by lake" },
-    { src: "/images/bottle-water.png", alt: "Thermal bottle in water" },
-    { src: "/images/bottle-stream.png", alt: "Thermal bottle by stream" },
-    { src: "/images/bottle-fire.png", alt: "Thermal bottle by fire" },
-    { src: "/images/bottle-snow.png", alt: "Thermal bottle in snow" },
-    { src: "/images/bottle-mountain.png", alt: "Thermal bottle on mountain" },
-    { src: "/images/bottle-canyon.png", alt: "Thermal bottle at canyon" },
+    { src: "/images/drone-race-track.jpg", alt: "Racing through neon gates" },
+    { src: "/images/drone-urban.jpg", alt: "Urban environment flight" },
+    { src: "/images/drone-night.jpg", alt: "Night racing with LED trails" },
+    { src: "/images/drone-stadium.jpg", alt: "Championship arena" },
+    { src: "/images/drone-desert.jpg", alt: "Desert racing" },
+    { src: "/images/drone-forest.jpg", alt: "Forest navigation" },
+    { src: "/images/drone-mountains.jpg", alt: "Mountain flight" },
+    { src: "/images/drone-ocean.jpg", alt: "Coastal racing" },
   ];
 
   // Calculate section height based on content width

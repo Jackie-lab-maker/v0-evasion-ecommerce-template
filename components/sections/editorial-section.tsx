@@ -1,10 +1,10 @@
 "use client";
 
 const specs = [
-  { label: "Weight", value: "400g" },
-  { label: "Capacity", value: "0.5L - 2L" },
-  { label: "Setup", value: "2 min" },
-  { label: "Packed size", value: "30 x 15 cm" },
+  { label: "Weight", value: "850g" },
+  { label: "Top Speed", value: "160 km/h" },
+  { label: "Flight Time", value: "25 min" },
+  { label: "Range", value: "10 km" },
 ];
 
 export function EditorialSection() {

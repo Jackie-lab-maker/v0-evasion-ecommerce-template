@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = {
   explore: [
@@ -31,11 +32,19 @@ export function FooterSection() {
         <div className="grid grid-cols-2 gap-12 md:grid-cols-4 lg:grid-cols-5">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1 lg:col-span-2">
-            <Link href="/" className="text-lg font-medium text-foreground">
-              EVASION
+            <Link href="/" className="flex items-center gap-2">
+              <Image
+                src="/images/watflight-logo.png"
+                alt="WATFlight"
+                width={32}
+                height={32}
+              />
+              <span className="text-lg font-medium text-foreground">
+                WATFLIGHT
+              </span>
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Premium smart bottles engineered for adventure. GPS tracking, LED flashlight, and self-heating technology.
+              High-performance autonomous racing drones engineered for competitive pilots. AI-powered navigation, carbon fiber construction, and championship-ready design.
             </p>
           </div>
 
@@ -96,7 +105,7 @@ export function FooterSection() {
       <div className="border-t border-border px-6 py-6 md:px-12 lg:px-20">
         <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-xs text-muted-foreground">
-            2026 EVASION. All rights reserved.
+            2026 WATFLIGHT. All rights reserved.
           </p>
 
           

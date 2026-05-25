@@ -22,10 +22,10 @@ export function PhilosophySection() {
     const scrolled = -rect.top;
     const progress = Math.max(0, Math.min(1, scrolled / scrollableRange));
     
-    // Alpine comes from left (-100% to 0%)
+    // Velocity comes from left (-100% to 0%)
     setAlpineTranslateX((1 - progress) * -100);
     
-    // Forest comes from right (100% to 0%)
+    // Phantom comes from right (100% to 0%)
     setForestTranslateX((1 - progress) * 100);
     
     // Title fades out as blocks come together
@@ -66,13 +66,13 @@ export function PhilosophySection() {
               style={{ opacity: titleOpacity }}
             >
               <h2 className="text-[12vw] font-medium leading-[0.95] tracking-tighter text-foreground md:text-[10vw] lg:text-[8vw] text-center px-6">
-                Meet Alpine & Forest.
+                Meet Velocity & Phantom.
               </h2>
             </div>
 
             {/* Product Grid */}
             <div className="relative z-10 grid grid-cols-1 gap-4 px-6 md:grid-cols-2 md:px-12 lg:px-20">
-              {/* Alpine Image - comes from left */}
+              {/* Velocity Image - comes from left */}
               <div 
                 className="relative aspect-[4/3] overflow-hidden rounded-2xl"
                 style={{
@@ -83,19 +83,19 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/images/product-backpack.png"
-                  alt="V1 Expedition Backpack in alpine setting"
+                  src="/images/drone-velocity.jpg"
+                  alt="WATFlight Velocity racing drone"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Alpine $299
+                    Velocity $2,499
                   </span>
                 </div>
               </div>
 
-              {/* Forest Image - comes from right */}
+              {/* Phantom Image - comes from right */}
               <div 
                 className="relative aspect-[4/3] overflow-hidden rounded-2xl"
                 style={{
@@ -106,14 +106,14 @@ export function PhilosophySection() {
                 }}
               >
                 <Image
-                  src="/images/02cdc426-dff4-4dff-b131-1b134c3699b5.png"
-                  alt="V1 Thermal mug in forest setting"
+                  src="/images/drone-phantom.jpg"
+                  alt="WATFlight Phantom stealth racing drone"
                   fill
                   className="object-cover"
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Forest $199
+                    Phantom $1,999
                   </span>
                 </div>
               </div>
@@ -129,8 +129,8 @@ export function PhilosophySection() {
             First generation
           </p>
           <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center">
-            Alpine & Forest are high-tech outdoor accessories designed for modern adventurers. 
-            Lightweight, durable, and engineered for extreme conditions.
+            Velocity & Phantom are autonomous racing drones designed for competitive pilots. 
+            AI-powered, carbon fiber, and engineered for championship-level performance.
           </p>
         </div>
       </div>

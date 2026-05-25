@@ -5,45 +5,45 @@ import { FadeImage } from "@/components/fade-image";
 const accessories = [
   {
     id: 1,
-    name: "Wireless Charging Stand",
-    description: "Induction charging dock for effortless power",
-    price: "$89",
-    image: "/images/accessory-charger.png",
+    name: "Pro Racing Controller",
+    description: "Precision joysticks with haptic feedback",
+    price: "$349",
+    image: "/images/accessory-controller.jpg",
   },
   {
     id: 2,
-    name: "Protective Silicone Sleeve",
-    description: "Textured grip sleeve for enhanced durability",
-    price: "$45",
-    image: "/images/accessory-sleeve.png",
+    name: "FPV Racing Goggles",
+    description: "4K OLED display with head tracking",
+    price: "$599",
+    image: "/images/accessory-goggles.jpg",
   },
   {
     id: 3,
-    name: "Carbon Fiber Bike Mount",
-    description: "Ultra-light mounting system for cycling",
-    price: "$129",
-    image: "/images/accessory-bike-mount.png",
+    name: "Carbon Fiber Propeller Set",
+    description: "Ultra-balanced racing propellers",
+    price: "$89",
+    image: "/images/accessory-propeller.jpg",
   },
   {
     id: 4,
-    name: "Premium Carry Strap",
-    description: "Adjustable strap with quick-release clips",
-    price: "$39",
-    image: "/images/accessory-strap.png",
+    name: "High-Capacity Battery Pack",
+    description: "Extended flight time with quick charging",
+    price: "$199",
+    image: "/images/accessory-battery-pack.jpg",
   },
   {
     id: 5,
-    name: "Carabiner Clip System",
-    description: "Secure attachment for hands-free carrying",
-    price: "$29",
-    image: "/images/accessory-carabiner.png",
+    name: "Professional Carry Case",
+    description: "Hard shell protection with custom foam",
+    price: "$249",
+    image: "/images/accessory-case.jpg",
   },
   {
     id: 6,
-    name: "Bluetooth Speaker Base",
-    description: "High-fidelity audio dock with grip stabilizers",
-    price: "$149",
-    image: "/images/accessory-speaker-base.png",
+    name: "Illuminated Landing Pad",
+    description: "Portable pad with LED markers",
+    price: "$79",
+    image: "/images/accessory-landing-pad.jpg",
   },
 ];
 
@@ -53,7 +53,7 @@ export function CollectionSection() {
       {/* Section Title */}
       <div className="px-6 py-20 md:px-12 lg:px-20 md:py-10">
         <h2 className="text-3xl font-medium tracking-tight text-foreground md:text-4xl">
-          Essential Accessories
+          Racing Accessories
         </h2>
       </div>
 

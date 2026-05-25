@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
 export function Header() {
@@ -26,8 +27,17 @@ export function Header() {
     >
       <div className="flex items-center justify-between transition-all duration-300 px-2 pl-5 py-2">
         {/* Logo */}
-        <Link href="#" className={`text-lg font-medium tracking-tight transition-colors duration-300 ${isScrolled ? "text-foreground" : "text-white"}`}>
-          EVASION
+        <Link href="#" className="flex items-center gap-2">
+          <Image
+            src="/images/watflight-logo.png"
+            alt="WATFlight"
+            width={32}
+            height={32}
+            className={`transition-all duration-300 ${isScrolled ? "" : "brightness-0 invert"}`}
+          />
+          <span className={`text-lg font-medium tracking-tight transition-colors duration-300 ${isScrolled ? "text-foreground" : "text-white"}`}>
+            WATFLIGHT
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -64,7 +74,7 @@ export function Header() {
             href="#reserve"
             className={`px-4 py-2 text-sm font-medium transition-all rounded-full ${isScrolled ? "bg-foreground text-background hover:opacity-80" : "bg-white text-foreground hover:bg-white/90"}`}
           >
-            Buy the product
+            Pre-Order Now
           </Link>
         </div>
 
