@@ -91,7 +91,7 @@ export function TechnologySection() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [textProgress, setTextProgress] = useState(0);
   
-  const descriptionText = "Experience aviation reimagined with cutting-edge technology. WATFlight combines machine learning, precision engineering, and aerospace-grade materials to push the boundaries of flight. Phantom represents our first step — autonomous racing that demonstrates what's possible when innovation meets ambition.";
+  const descriptionText = "Built by students, for the skies. WATFlight combines machine learning, precision engineering, and aerospace-grade materials to push the boundaries of what a student team can achieve. Phantom represents our first step — autonomous racing that demonstrates the talent and ambition of University of Waterloo students.";
 
   useEffect(() => {
     const handleScroll = () => {

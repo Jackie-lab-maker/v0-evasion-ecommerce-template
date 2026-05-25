@@ -44,7 +44,7 @@ export function FooterSection() {
               </span>
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Advancing aviation technology through innovation. From autonomous racing drones to next-generation flight systems — engineering the future of flight.
+              A University of Waterloo student team building aviation technology. Phantom is our first project — an autonomous racing drone showcasing student-driven innovation.
             </p>
           </div>
 

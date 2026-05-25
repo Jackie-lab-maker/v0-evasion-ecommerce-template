@@ -103,8 +103,8 @@ export function PhilosophySection() {
             Autonomous Racing Drone
           </p>
           <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center">
-            Phantom marks our entry into aviation technology. An AI-powered racing drone 
-            engineered for championship performance, showcasing the precision we bring to flight.
+            Phantom marks WATFlight&apos;s first project — an AI-powered racing drone 
+            engineered for championship performance by University of Waterloo students.
           </p>
         </div>
       </div>
