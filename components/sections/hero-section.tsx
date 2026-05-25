@@ -117,7 +117,7 @@ export function HeroSection() {
 
             {/* Main Hero Image - Center */}
             <div 
-              className="relative overflow-hidden will-change-transform"
+              className="relative overflow-hidden will-change-transform bg-black"
               style={{
                 width: `${centerWidth}%`,
                 height: `${centerHeight}%`,
@@ -126,10 +126,10 @@ export function HeroSection() {
               }}
             >
               <Image
-                src="/images/drone-hero.jpg"
-                alt="WATFlight autonomous racing drone at sunset"
+                src="/images/watflight-logo.png"
+                alt="WATFlight logo"
                 fill
-                className="object-cover"
+                className="object-contain p-16 md:p-24 lg:p-32"
                 priority
               />
               
