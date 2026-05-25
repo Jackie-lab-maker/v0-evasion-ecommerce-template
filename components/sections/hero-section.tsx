@@ -25,7 +25,7 @@ const sideImages = [
     alt: "Air Canada Boeing 787 Dreamliner",
     position: "right",
     span: 1,
-    objectPosition: "left center",
+    objectPosition: "right center",
   },
   {
     src: "/images/aviation-systems.jpg",
