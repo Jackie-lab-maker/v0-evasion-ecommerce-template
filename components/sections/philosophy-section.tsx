@@ -90,7 +90,7 @@ export function PhilosophySection() {
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Velocity $2,499
+                    Velocity
                   </span>
                 </div>
               </div>
@@ -113,7 +113,7 @@ export function PhilosophySection() {
                 />
                 <div className="absolute bottom-6 left-6">
                   <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Phantom $1,999
+                    Phantom
                   </span>
                 </div>
               </div>
