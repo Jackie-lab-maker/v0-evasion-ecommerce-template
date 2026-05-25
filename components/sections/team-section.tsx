@@ -7,27 +7,25 @@ const teamMembers = [
     name: "Jackie",
     title: "Team Lead",
     linkedIn: "https://linkedin.com/in/jackie-watflight",
-    email: "jackie@watflight.com",
   },
   {
     name: "Shaofu",
     title: "Technical Lead",
     linkedIn: "https://linkedin.com/in/shaofu-watflight",
-    email: "shaofu@watflight.com",
   },
   {
     name: "Hiram",
     title: "Hardware Lead",
     linkedIn: "https://linkedin.com/in/hiram-watflight",
-    email: "hiram@watflight.com",
   },
   {
     name: "Manya",
     title: "Software Lead",
     linkedIn: "https://linkedin.com/in/manya-watflight",
-    email: "manya@watflight.com",
   },
 ];
+
+const teamEmail = "admin@watflight.com";
 
 // Discord icon component since lucide-react doesn't have one
 function DiscordIcon({ className }: { className?: string }) {
@@ -91,7 +89,7 @@ export function TeamSection() {
                   <Linkedin className="w-4 h-4 text-foreground" />
                 </a>
                 <a
-                  href={`mailto:${member.email}`}
+                  href={`mailto:${teamEmail}`}
                   className="p-2 rounded-full bg-muted hover:bg-muted/80 transition-colors"
                   aria-label={`Email ${member.name}`}
                 >
