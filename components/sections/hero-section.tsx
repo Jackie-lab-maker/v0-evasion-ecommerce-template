@@ -13,8 +13,8 @@ const sideImages = [
     span: 1,
   },
   {
-    src: "/images/drone-velocity.jpg",
-    alt: "Racing drone - our first project",
+    src: "/images/drone-phantom.jpg",
+    alt: "Phantom - our first project",
     position: "left",
     span: 1,
   },

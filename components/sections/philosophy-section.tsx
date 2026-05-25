@@ -5,8 +5,7 @@ import { useEffect, useRef, useState, useCallback } from "react";
 
 export function PhilosophySection() {
   const sectionRef = useRef<HTMLDivElement>(null);
-  const [alpineTranslateX, setAlpineTranslateX] = useState(-100);
-  const [forestTranslateX, setForestTranslateX] = useState(100);
+  const [phantomTranslateY, setPhantomTranslateY] = useState(100);
   const [titleOpacity, setTitleOpacity] = useState(1);
   const rafRef = useRef<number | null>(null);
 
@@ -22,13 +21,10 @@ export function PhilosophySection() {
     const scrolled = -rect.top;
     const progress = Math.max(0, Math.min(1, scrolled / scrollableRange));
     
-    // Velocity comes from left (-100% to 0%)
-    setAlpineTranslateX((1 - progress) * -100);
+    // Phantom rises from bottom (100% to 0%)
+    setPhantomTranslateY((1 - progress) * 100);
     
-    // Phantom comes from right (100% to 0%)
-    setForestTranslateX((1 - progress) * 100);
-    
-    // Title fades out as blocks come together
+    // Title fades out as block comes up
     setTitleOpacity(1 - progress);
   }, []);
 
@@ -71,43 +67,21 @@ export function PhilosophySection() {
             </div>
 
             {/* Product Grid */}
-            <div className="relative z-10 grid grid-cols-1 gap-4 px-6 md:grid-cols-2 md:px-12 lg:px-20">
-              {/* Velocity Image - comes from left */}
+            <div className="relative z-10 flex items-center justify-center px-6 md:px-12 lg:px-20">
+              {/* Phantom Image - single centered product */}
               <div 
-                className="relative aspect-[4/3] overflow-hidden rounded-2xl"
+                className="relative aspect-[4/3] w-full max-w-3xl overflow-hidden rounded-2xl"
                 style={{
-                  transform: `translate3d(${alpineTranslateX}%, 0, 0)`,
-                  WebkitTransform: `translate3d(${alpineTranslateX}%, 0, 0)`,
+                  transform: `translate3d(0, ${phantomTranslateY}%, 0)`,
+                  WebkitTransform: `translate3d(0, ${phantomTranslateY}%, 0)`,
                   backfaceVisibility: 'hidden',
                   WebkitBackfaceVisibility: 'hidden',
-                }}
-              >
-                <Image
-                  src="/images/drone-velocity.jpg"
-                  alt="WATFlight Velocity racing drone"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute bottom-6 left-6">
-                  <span className="backdrop-blur-md px-4 py-2 text-sm font-medium rounded-full bg-[rgba(255,255,255,0.2)] text-white">
-                    Velocity
-                  </span>
-                </div>
-              </div>
-
-              {/* Phantom Image - comes from right */}
-              <div 
-                className="relative aspect-[4/3] overflow-hidden rounded-2xl"
-                style={{
-                  transform: `translate3d(${forestTranslateX}%, 0, 0)`,
-                  WebkitTransform: `translate3d(${forestTranslateX}%, 0, 0)`,
-                  backfaceVisibility: 'hidden',
-                  WebkitBackfaceVisibility: 'hidden',
+                  opacity: 1 - (phantomTranslateY / 100),
                 }}
               >
                 <Image
                   src="/images/drone-phantom.jpg"
-                  alt="WATFlight Phantom stealth racing drone"
+                  alt="WATFlight Phantom autonomous racing drone"
                   fill
                   className="object-cover"
                 />
@@ -126,10 +100,10 @@ export function PhilosophySection() {
       <div className="px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-36 lg:pb-14">
         <div className="text-center">
           <p className="text-xs uppercase tracking-widest text-muted-foreground">
-            Autonomous Racing Drones
+            Autonomous Racing Drone
           </p>
           <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center">
-            Velocity & Phantom mark our entry into aviation technology. AI-powered racing drones 
+            Phantom marks our entry into aviation technology. An AI-powered racing drone 
             engineered for championship performance, showcasing the precision we bring to flight.
           </p>
         </div>
