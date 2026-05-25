@@ -179,7 +179,7 @@ export function HeroSection() {
                     src={img.src || "/placeholder.svg"}
                     alt={img.alt}
                     fill
-                    className="object-cover"
+                    className={img.src.includes("air-canada") ? "object-contain" : "object-cover"}
                   />
                 </div>
               ))}
