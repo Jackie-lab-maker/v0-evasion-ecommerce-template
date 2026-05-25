@@ -19,8 +19,8 @@ const sideImages = [
     span: 1,
   },
   {
-    src: "/images/aviation-aircraft.jpg",
-    alt: "Next-generation aircraft technology",
+    src: "/images/air-canada-787.jpg",
+    alt: "Air Canada Boeing 787 Dreamliner",
     position: "right",
     span: 1,
   },
