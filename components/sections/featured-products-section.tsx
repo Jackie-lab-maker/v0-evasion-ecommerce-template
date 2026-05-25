@@ -41,12 +41,12 @@ export function FeaturedProductsSection() {
       {/* Section Title */}
       <div className="px-6 py-20 text-center md:px-12 md:py-28 lg:px-20 lg:py-32 lg:pb-20">
         <h2 className="text-3xl font-medium tracking-tight text-foreground md:text-4xl lg:text-5xl">
-          Engineered for Speed.
+          Built for Performance.
           <br />
-          Designed to Win.
+          Designed to Evolve.
         </h2>
         <p className="mx-auto mt-6 max-w-md text-sm text-muted-foreground">
-          Technology
+          Core Technology
         </p>
       </div>
 

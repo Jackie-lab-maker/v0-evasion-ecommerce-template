@@ -66,7 +66,7 @@ export function PhilosophySection() {
               style={{ opacity: titleOpacity }}
             >
               <h2 className="text-[12vw] font-medium leading-[0.95] tracking-tighter text-foreground md:text-[10vw] lg:text-[8vw] text-center px-6">
-                Meet Velocity & Phantom.
+                Our First Project.
               </h2>
             </div>
 
@@ -126,11 +126,11 @@ export function PhilosophySection() {
       <div className="px-6 py-20 md:px-12 md:py-28 lg:px-20 lg:py-36 lg:pb-14">
         <div className="text-center">
           <p className="text-xs uppercase tracking-widest text-muted-foreground">
-            First generation
+            Autonomous Racing Drones
           </p>
           <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center">
-            Velocity & Phantom are autonomous racing drones designed for competitive pilots. 
-            AI-powered, carbon fiber, and engineered for championship-level performance.
+            Velocity & Phantom mark our entry into aerial robotics. AI-powered racing drones 
+            engineered for championship performance, paving the way for our broader vision.
           </p>
         </div>
       </div>

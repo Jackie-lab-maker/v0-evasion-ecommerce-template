@@ -7,26 +7,26 @@ const word = "WATFLIGHT";
 
 const sideImages = [
   {
-    src: "/images/drone-urban.jpg",
-    alt: "Drone racing in urban environment",
+    src: "/images/aerial-inspection.jpg",
+    alt: "Industrial inspection drone",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/drone-night.jpg",
-    alt: "Night racing with LED trails",
+    src: "/images/drone-velocity.jpg",
+    alt: "Racing drone - our first project",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/drone-race-track.jpg",
-    alt: "Racing through neon gates",
+    src: "/images/aerial-delivery.jpg",
+    alt: "Autonomous delivery drone",
     position: "right",
     span: 1,
   },
   {
-    src: "/images/drone-stadium.jpg",
-    alt: "Championship arena racing",
+    src: "/images/aerial-agriculture.jpg",
+    alt: "Agricultural robotics drone",
     position: "right",
     span: 1,
   },
@@ -195,9 +195,9 @@ export function HeroSection() {
       {/* Tagline Section */}
       <div className="px-6 pt-32 pb-28 md:pt-48 md:px-12 md:pb-36 lg:px-20 lg:pt-56 lg:pb-44">
         <p className="mx-auto max-w-2xl text-center text-2xl leading-relaxed text-muted-foreground md:text-3xl lg:text-[2.5rem] lg:leading-snug">
-          AI-powered, carbon fiber
+          Pioneering aerial robotics
           <br />
-          and race-ready.
+          for tomorrow&apos;s world.
         </p>
       </div>
     </section>
