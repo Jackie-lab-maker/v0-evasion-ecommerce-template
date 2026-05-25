@@ -7,8 +7,8 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'WATFlight | Autonomous Racing Drones',
-  description: 'High-performance autonomous racing drones engineered for speed and precision. AI-powered, carbon fiber, race-ready.',
+  title: 'WATFlight | Aviation Technology & Aerial Robotics',
+  description: 'Shaping the future of flight through innovation. From autonomous racing drones to advanced aviation systems.',
   generator: 'v0.app',
   icons: {
     icon: [

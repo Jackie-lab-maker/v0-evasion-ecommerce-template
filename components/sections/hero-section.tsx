@@ -7,8 +7,8 @@ const word = "WATFLIGHT";
 
 const sideImages = [
   {
-    src: "/images/aerial-inspection.jpg",
-    alt: "Industrial inspection drone",
+    src: "/images/aviation-evtol.jpg",
+    alt: "Urban air mobility eVTOL aircraft",
     position: "left",
     span: 1,
   },
@@ -19,14 +19,14 @@ const sideImages = [
     span: 1,
   },
   {
-    src: "/images/aerial-delivery.jpg",
-    alt: "Autonomous delivery drone",
+    src: "/images/aviation-aircraft.jpg",
+    alt: "Next-generation aircraft technology",
     position: "right",
     span: 1,
   },
   {
-    src: "/images/aerial-agriculture.jpg",
-    alt: "Agricultural robotics drone",
+    src: "/images/aviation-systems.jpg",
+    alt: "Advanced avionics and flight systems",
     position: "right",
     span: 1,
   },
@@ -195,9 +195,9 @@ export function HeroSection() {
       {/* Tagline Section */}
       <div className="px-6 pt-32 pb-28 md:pt-48 md:px-12 md:pb-36 lg:px-20 lg:pt-56 lg:pb-44">
         <p className="mx-auto max-w-2xl text-center text-2xl leading-relaxed text-muted-foreground md:text-3xl lg:text-[2.5rem] lg:leading-snug">
-          Pioneering aerial robotics
+          Shaping the future of flight
           <br />
-          for tomorrow&apos;s world.
+          through innovation.
         </p>
       </div>
     </section>

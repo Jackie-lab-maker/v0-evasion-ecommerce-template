@@ -129,8 +129,8 @@ export function PhilosophySection() {
             Autonomous Racing Drones
           </p>
           <p className="mt-8 leading-relaxed text-muted-foreground text-3xl text-center">
-            Velocity & Phantom mark our entry into aerial robotics. AI-powered racing drones 
-            engineered for championship performance, paving the way for our broader vision.
+            Velocity & Phantom mark our entry into aviation technology. AI-powered racing drones 
+            engineered for championship performance, showcasing the precision we bring to flight.
           </p>
         </div>
       </div>
