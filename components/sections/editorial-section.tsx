@@ -9,7 +9,7 @@ const specs = [
 
 export function EditorialSection() {
   return (
-    <section className="bg-background">
+    <section id="editorial" className="bg-background">
       {/* Newsletter Banner */}
       
 
